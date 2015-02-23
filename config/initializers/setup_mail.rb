@@ -3,10 +3,10 @@
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {  
            :address              =>  "smtp.gmail.com",
-           :port                 =>  587,
+           :port                 =>  25, #587
            :domain               =>  'gmail.com',
            :user_name            =>  'samskinnerphd@gmail.com',
-           :password             =>  '!Galaxy885',
+           :password             =>  'my_password',
            :authentication       =>  'plain',
            :enable_starttls_auto =>  true    }
 

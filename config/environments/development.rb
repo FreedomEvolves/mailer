@@ -4,12 +4,12 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {  
            :address              =>  "smtp.gmail.com",
-           :port                 =>  587,
+           :port                 =>  25, #587
            :domain               =>  'gmail.com',
            #:user_name            =>  ENV['GMAIL_USERNAME'],
            #:password             =>  ENV['GMAIL_PASSWORD'],
            :user_name            =>  'sam@swskinner.net',
-           :password             =>  '!Galaxy885',
+           :password             =>  'my_password',
            :authentication       =>  'plain',
            :enable_starttls_auto =>  true    }
   # Settings specified here will take precedence over those in config/application.rb.
