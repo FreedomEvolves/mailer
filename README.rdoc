@@ -1,0 +1,7 @@
+== README
+
+This is a simple test app for using ActionMailer.  The code example comes from "http://railscasts.com/episodes/206-action-mailer-in-rails-3".
+
+It doesn't work.
+
+I think the problem is in configuration, either the /config/development.rb or the /config/initializers/setup_mail.rb is wrong.  Neither works, not alone nor in conjunction.
